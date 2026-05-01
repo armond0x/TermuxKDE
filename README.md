@@ -72,6 +72,9 @@ cd TermuxKDE
 # 2. Give permission
 chmod +x install_termuxkde.sh
 
+#3. Install ncurses-utils
+apt install ncurses-utils
+
 # 3. Run the installer
 bash install_termuxkde.sh
 ```
